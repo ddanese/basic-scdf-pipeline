@@ -1,6 +1,7 @@
 ### Generated files
 .DS_Store
 .gradle
+.idea
 **/build/
 **/out/
 

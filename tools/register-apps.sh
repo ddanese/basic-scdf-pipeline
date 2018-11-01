@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -eu
-
 curl -H "Accept: application/json" -X POST "http://localhost:9393/apps/source/source" -i \
     -d "uri=maven://com.example.pipeline:source:0.0.1-SNAPSHOT" \
     -d "force=true"
